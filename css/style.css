@@ -1,0 +1,31 @@
+.splash-container {
+	background-image:url('img/bgcover.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+#portfolio_item_image img {
+	display: block;
+	transition: all 0.3s ease-in-out 0s;
+	width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+	#portfolio.fullwidth_portfolio .isotope-item {width: 32.5%}
+}
+@media screen and (max-width: 800px) {
+	#portfolio.fullwidth_portfolio .isotope-item {width: 49.4%}
+}
+
+@media screen and (max-width: 991px) {
+	#portfolio.fullwidth_portfolio .isotope-item {width: 100%}
+}
+
+ul#porfolio_Container {padding: 0; margin: 0 0 0 1%; list-style: none; text-align: center;}
+#portfolio {overflow: hidden; float: left;margin-bottom: 30px; list-style: none;}
+.latest-works .owl-item:hover .portfolio_links + div {
+	margin-top: 0; overflow: visible; top: 0; bottom: 0;}
+
+a { text-decoration: none; weight: bolder; font-color: #8F8F8F; }
